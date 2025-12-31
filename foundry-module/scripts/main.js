@@ -1,5 +1,5 @@
 const MODULE_ID = "foundry-oracle";
-const DEFAULT_API_URL = "https://foundry.crits4kids.net/oracle/ask";
+const DEFAULT_API_URL = "http://0.0.0.0:8000/oracle/ask";
 
 function getChatCommandsApi() {
   const moduleIds = [
