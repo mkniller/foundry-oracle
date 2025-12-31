@@ -1,0 +1,39 @@
+{
+  "id": "foundry-oracle",
+  "title": "Foundry Oracle",
+  "description": "Local RAG-powered assistant for Foundry VTT queries using Foundry commands",
+  "version": "1.0.2",
+  "authors": [
+    {
+      "name": "Foundry Oracle",
+      "flags": {}
+    }
+  ],
+  "compatibility": {    
+    "minimum": "13",
+    "verified": "13"
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/module.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "relationships": {
+    "requires": [
+        {
+            "id": "_chatcommands",
+            "type": "module",
+            "manifest": "https://gitlab.com/woodentavern/foundryvtt-chat-command-lib/-/raw/master/src/module.json",
+            "compatibility": { "verified": "2.0.1" }
+        }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "foundry-oracle": {
+    "command": {
+      "oracle": {
+        "description": "Ask Foundry Oracle a question."
+      }
+    },
+    "settings": {
+      "apiUrl": {
+        "name": "Oracle API URL",
+        "hint": "URL to the local Foundry Oracle API (for example, http://127.0.0.1:7000/oracle/ask)."
+      }
+    },
+    "errors": {
+      "missingQuestion": "Usage: /oracle <question>",
+      "requestFailed": "Oracle request failed. Check the service logs.",
+      "chatCommandMissing": "Chat Command module is missing or not active."
+    }
+  }
+}

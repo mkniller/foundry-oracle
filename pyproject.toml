@@ -1,0 +1,14 @@
+[project]
+name = "foundry-oracle"
+version = "0.1.0"
+description = "Local RAG service for Foundry VTT."
+requires-python = ">=3.10"
+dependencies = [
+  "chromadb>=0.5.0",
+  "fastapi>=0.110.0",
+  "pydantic>=2.6.0",
+  "pypdf>=4.0.0",
+  "requests>=2.31.0",
+  "sentence-transformers>=2.5.0",
+  "uvicorn>=0.29.0",
+]
